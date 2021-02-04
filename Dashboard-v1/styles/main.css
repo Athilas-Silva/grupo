@@ -249,13 +249,14 @@ div.simbolos-cabecalho-cards{
 
 /* ~~~~~~~~~Tags do Victor~~~~~~~~~ */
 /* ID do titulo */
-#titulo {
+.titulo {
     margin-top: 5%;
 }
 /* ID da div que carrega o canvas */
 .grafico {
     display: flex;
     justify-content: center;
+    
 }
 /* ID do canvas */
 #generos {
@@ -263,3 +264,13 @@ div.simbolos-cabecalho-cards{
 }
 /* ~~~~~~~~~~~~~~~~~~ */
 
+
+/*Mudança do Allan
+esse é o conteiner do meu gráfico.
+para o gráfico ficar bonitão eu tive que aumentar as dimensões desse container
+e aumentar a altura do gráfico na tag de abertura canvas */
+#container_grafico{
+    width: 100%;
+    height: 90%;
+    
+}
