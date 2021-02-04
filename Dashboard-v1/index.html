@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/main.css">
     <script src="https://kit.fontawesome.com/d5c0433382.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
     <title>Dashboard</title>
 </head>
 
@@ -159,7 +160,7 @@
 
                         <div class="grafico">
                             <canvas >
-
+                                
                             </canvas>
                         </div>
                     </div>
@@ -203,10 +204,13 @@
 
                         </div>
 
-                        <div class="grafico">
-                            <canvas >
+                        <h1 id="titulo">Top Generos Musicais</h1>
 
+                        <div class="grafico">
+                            <canvas id="generos" width="350%" height="180%">
+                                
                             </canvas>
+                            <script src="./chart.js/generos.js"></script>
                         </div>
 
                     </div>
@@ -229,7 +233,7 @@
 
                         <div class="grafico">
                             <canvas >
-
+                            
                             </canvas>
                         </div>
 
