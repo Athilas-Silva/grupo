@@ -269,7 +269,7 @@ div.simbolos-cabecalho-cards{
 esse é o conteiner do meu gráfico.
 para o gráfico ficar bonitão eu tive que aumentar as dimensões desse container
 e aumentar a altura do gráfico na tag de abertura canvas */
-#container_grafico{
+.container_grafico{
     width: 100%;
     height: 90%;
     
