@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <script src="https://kit.fontawesome.com/d5c0433382.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <title>Dashboard</title>
+</head>
+
+<body>
+
+    <section id="sidebar">
+
+        <div id="container_imagem">
+
+            <img src="./images/Logo.png" alt="Logotipo">
+        </div>
+
+        <nav id="navegacao_lateral">
+
+            <ul id="navegacao_lateral_lista">
+
+                <li class="item_navegacao_lateral">
+                    <a href="#"><i class="fas fa-columns"></i> Dashboard </a>
+                </li>
+
+                <li class="item_navegacao_lateral">
+                    <a href=""><i class="fas fa-tv"></i> Supervisão</a>
+                </li>
+
+                <li class="item_navegacao_lateral">
+                    <a href=""><i class="fas fa-chart-bar"></i> Relatórios</a>
+                </li>
+
+                <li class="item_navegacao_lateral">
+                    <a href=""><i class="fas fa-chart-line"></i> Análises</a>
+                </li>
+
+                <li class="item_navegacao_lateral">
+                    <a href=""><i class="fas fa-coins"></i> Finanças</a>
+                </li>
+                <li class="item_navegacao_lateral">
+                    <a href=""><i class="fas fa-shopping-cart"></i> Mercado Livre</a>
+                </li>
+
+            </ul>
+        </nav>
+
+    </section>
+
+    <section id="navbar_e_cards">
+
+        <header>
+
+            <div id="container_img_cliente">
+                <img src="./images/Spotify-icon.jpg" alt="logo Spotify" height="60px">
+            </div>
+
+            <div id="container_cliente_info">
+                <div id="cointainer_cliente_info_texto">
+                    <h4>Spotify</h4>
+
+                </div>
+                <div id="container-info">
+                    <!-- <div id="container-spotify">
+                        
+                    </div> -->
+                    <p>Spotify</p>
+                    <p>Spotyfy Brasil</p>
+                    <p>Concessionária Spotify</p>
+                </div>
+
+            </div>
+
+            <nav id="navegacao_horizontal">
+
+                <ul id="navegacao_horizontal_lista">
+
+                    <li class="item_navegacao_horizontal">
+                        <div class="item-usuario">
+                            <i class="fas fa-user"></i>
+                        </div>
+
+                        <div class="item-usuario">
+                            Spotify
+                        </div>
+                    </li>
+
+                    <li class="item_navegacao_horizontal">
+                        <div>
+                            <i class="fas fa-cog"></i>
+                        </div>
+                    </li>
+
+                    <li class="item_navegacao_horizontal">
+                        <div>
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                    </li>
+
+                    <li class="item_navegacao_horizontal">
+
+                        <div class="item-sair">
+                            <i class="fas fa-sign-out-alt"></i>
+                        </div>
+
+                        <div class="item-sair">
+                            Sair
+                        </div>
+                    </li>
+
+                </ul>
+            </nav>
+        </header>
+
+        <article id="conteudo-principal">
+
+            <div id="container-cabecalho">
+
+                <div id="container-pagina">
+                    <h5 id="titulo1">
+                        Página 1
+                    </h5>
+                </div>
+
+                <div id="container-simbolos">
+                    <div class="simbolos">
+                        <i class="fas fa-expand-alt"></i>
+                    </div>
+
+                    <div class="simbolos">
+                        <i class="fas fa-adjust"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div id="container-cards1">
+               
+                <div id="container-cards2">
+
+                    <div class="cards">
+                        
+                        <div class="cabecalho-cards">
+                            
+                            <h5 class="titulo2"> Concessionária Spotify</h5>
+                            
+                            <div class="simbolos-cabecalho-cards">
+                                <i class="fas fa-angle-left"></i>
+                                <i class="fas fa-angle-right"></i>
+                            </div>
+
+                        </div>
+
+                        <div class="container-info-grafico">
+
+                        </div>
+
+                        <div class="grafico">
+                            <canvas >
+                                
+                            </canvas>
+                        </div>
+                    </div>
+
+                    <div class="cards">
+                        <div class="cabecalho-cards">
+                            
+                            <h5 class="titulo2"> Concessionária Spotify</h5>
+                            
+                            <div class="simbolos-cabecalho-cards">
+                                <i class="fas fa-angle-left"></i>
+                                <i class="fas fa-angle-right"></i>
+                            </div>
+                        </div>
+
+                        <div class="container-info-grafico">
+
+                        </div>
+
+                        <h1 class="titulo">Top 5 em 2020</h1>
+
+                        <div id="container_grafico">
+                            <canvas id="top_artistas" height="280%">
+
+                            </canvas>
+                            <script src="./chart.js/artistas.js" ></script>
+                        </div>
+                            
+                    </div>
+
+                    <div class="cards">
+                        <div class="cabecalho-cards">
+                            
+                            <h5 class="titulo2"> Concessionária Spotify</h5>
+                            
+                            <div class="simbolos-cabecalho-cards">
+                                <i class="fas fa-angle-left"></i>
+                                <i class="fas fa-angle-right"></i>
+                            </div>
+
+                        </div>
+
+                        <div class="container-info-grafico">
+
+                        </div>
+
+                        <h1 class="titulo">Top Generos Musicais</h1>
+
+                        <div class="grafico">
+                            <canvas id="generos" width="350%" height="180%">
+                                
+                            </canvas>
+                            <script src="./chart.js/generos.js"></script>
+                        </div>
+
+                    </div>
+
+                    <div class="cards">
+                        <div class="cabecalho-cards">
+                            
+                            <h5 class="titulo2"> Concessionária Spotify</h5>
+                            
+                            <div class="simbolos-cabecalho-cards">
+                                <i class="fas fa-angle-left"></i>
+                                <i class="fas fa-angle-right"></i>
+                            </div>
+
+                        </div>
+
+                        <div class="container-info-grafico">
+
+                        </div>
+
+                        <h1 class="titulo">SEXO</h1>
+
+                        <div id="container_grafico">
+                            <canvas id="chart2" height="240%">
+
+                            </canvas>
+                            <script src="./chart.js/sexo.js" ></script>
+                        </div>
+
+                    </div>
+
+                    <div class="cards">
+                        <div class="cabecalho-cards">
+                            
+                            <h5 class="titulo2"> Concessionária Spotify</h5>
+                            
+                            <div class="simbolos-cabecalho-cards">
+                                <i class="fas fa-angle-left"></i>
+                                <i class="fas fa-angle-right"></i>
+                            </div>
+
+                        </div>
+
+                        <div class="container-info-grafico">
+
+                        </div>
+
+                        <div class="grafico">
+                            <canvas >
+
+                            </canvas>
+                        </div>
+
+                    </div>
+
+                    <div class="cards">
+                        <div class="cabecalho-cards">
+                            <h5 id="titulo2"> Concessionária Spotify</h5>
+                            
+                        </div>
+
+                        <div class="container-info-grafico">
+
+                        </div>
+
+                        <div class="grafico">
+                            <canvas >
+
+                            </canvas>
+                        </div>
+                            
+                           
+
+                    </div>
+
+                </div>
+            
+            </div>
+
+
+        </article>
+    </section>
+
+</body>
+
+</html>
