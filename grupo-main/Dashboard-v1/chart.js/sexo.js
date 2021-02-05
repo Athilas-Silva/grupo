@@ -1,4 +1,3 @@
-
 var ctx = document.getElementById('chart2').getContext('2d');
 var chart = new Chart(ctx, {
 // The type of chart we want to create
