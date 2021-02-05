@@ -5,12 +5,12 @@ type: 'doughnut',
 
 // The data for our dataset
 data: {
-    labels: ["Pop", "Rock", "Rap", "Forró", "Eletrônica"],
+    labels: ["Pop", "Rock", "Brazilian Pop Music", "Pop rock", "Sertanejo"],
     datasets: [{
         label: 'Generos',
         backgroundColor: ['rgb(255, 99, 132)', 'blue', 'yellow', 'orange'],
         borderColor: 'rgb(255, 99, 132)',
-        data: [160, 600, 257, 254, 715]
+        data: [500, 350, 200, 150, 100]
     }]
 },
 
