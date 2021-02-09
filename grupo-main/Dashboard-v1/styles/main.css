@@ -232,6 +232,7 @@ div.cards{
     margin: 5px;
     background-color: white;
     width: 32%;
+    min-width: 300px;
     margin-top: 2px;
     margin-bottom: 2px;
     display: flex;
@@ -293,4 +294,8 @@ e aumentar a altura do gráfico na tag de abertura canvas */
     width: 100%;
     height: 100%;
     align-items: center;
+}
+
+canvas {
+    max-width: 100%;
 }
