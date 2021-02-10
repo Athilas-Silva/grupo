@@ -20,7 +20,7 @@ div#container_imagem{
     justify-content: center;
 }
 section#sidebar img{
-    width: 120px;
+    width: 90px;
     
     
 }
@@ -34,9 +34,16 @@ ul#navegacao_lateral_lista{
     padding: 0;
 }
 
-ul li.item_navegacao_lateral{
-    margin: 10px;
-    height: 100%;
+ul li.item_navegacao_lateral:hover{
+    background-color: aliceblue;
+    
+    
+}
+
+i
+{
+    font-size: 17px;
+    margin-right: 5px;
 }
 ul li a{
     text-decoration: none;
@@ -47,8 +54,48 @@ ul li a{
     color: aliceblue;
     
 }
+
+ul li a:hover
+{
+    color: black;
+}
+    
+div#suporte
+{
+    background-color: rgb(56, 148, 148);
+    display: flex;
+    align-items: center;
+    width: 65%;
+    min-width: 100px;
+    height: 45px;
+    margin-left: 11px;
+    border-radius: 25px;
+}
+    
     
 
+h4#titulo_suporte{
+    margin: 0
+}
+
+div#icone_suporte
+{
+    background-color: rgb(76, 82, 80);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    justify-content: center;
+    color: aliceblue;
+    margin-right: 5px;
+    width: 40%;
+}
+
+i#suporte
+{
+    font-size: 25px;
+}
+    
 
 
 section#navbar_e_cards{
