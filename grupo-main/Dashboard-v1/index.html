@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/mobile.css">
     <script src="https://kit.fontawesome.com/d5c0433382.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
     <title>Dashboard</title>
@@ -74,46 +75,45 @@
                 </div>
 
             </div>
-
-            <nav id="navegacao_horizontal">
-
-                <ul id="navegacao_horizontal_lista">
-
-                    <li class="item_navegacao_horizontal">
-                        <div class="item-usuario">
-                            <i class="fas fa-user"></i>
-                        </div>
-
-                        <div class="item-usuario">
-                            Spotify
-                        </div>
-                    </li>
-
-                    <li class="item_navegacao_horizontal">
-                        <div>
-                            <i class="fas fa-cog"></i>
-                        </div>
-                    </li>
-
-                    <li class="item_navegacao_horizontal">
-                        <div>
-                            <i class="fas fa-envelope"></i>
-                        </div>
-                    </li>
-
-                    <li class="item_navegacao_horizontal">
-
-                        <div class="item-sair">
-                            <i class="fas fa-sign-out-alt"></i>
-                        </div>
-
-                        <div class="item-sair">
-                            Sair
-                        </div>
-                    </li>
-
-                </ul>
-            </nav>
+                <nav id="navegacao_horizontal">
+    
+                    <ul id="navegacao_horizontal_lista">
+    
+                        <li class="item_navegacao_horizontal">
+                            <div class="item-usuario">
+                                <i class="fas fa-user"></i>
+                            </div>
+    
+                            <div class="item-usuario">
+                                Spotify
+                            </div>
+                        </li>
+    
+                        <li class="item_navegacao_horizontal">
+                            <div>
+                                <i class="fas fa-cog"></i>
+                            </div>
+                        </li>
+    
+                        <li class="item_navegacao_horizontal">
+                            <div>
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                        </li>
+    
+                        <li class="item_navegacao_horizontal">
+    
+                            <div class="item-sair">
+                                <i class="fas fa-sign-out-alt"></i>
+                            </div>
+    
+                            <div class="item-sair">
+                                Sair
+                            </div>
+                        </li>
+    
+                    </ul>
+                </nav>
         </header>
 
         <article id="conteudo-principal">
@@ -209,7 +209,7 @@
                         <h1 class="titulo">Top Generos Musicais</h1>
 
                         <div class="grafico">
-                            <canvas id="generos" width="350%" height="250px">
+                            <canvas id="generos" width="350%" height="250%">
                                 
                             </canvas>
                             <script src="./chart.js/generos.js"></script>
@@ -236,7 +236,7 @@
                         <h1 class="titulo">SEXO</h1>
 
                         <div id="container_grafico">
-                            <canvas id="chart2" height="300px">
+                            <canvas id="chart2" height="250%">
 
                             </canvas>
                             <script src="./chart.js/sexo.js" ></script>
