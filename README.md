@@ -7,15 +7,15 @@ Proposta:
 
 [Dashboard](https://athilas-silva.github.io/grupo/grupo-main/Dashboard-v1/index.html)
 
-Para acessar pelo celular:
+### Para acessar pelo celular:
 ![QrCode](Grupo/grupo-main/Dashboard-v1/images/Dashboard-Grupo1.png)
 
 Perfis dos Integrantes:
 
-[Allan](https://github.com/allan-gh)
+- [Allan](https://github.com/allan-gh)
 
-[Antonio](https://github.com/Antonio1711)
+- [Antonio](https://github.com/Antonio1711)
 
-[Ana](https://github.com/AnaCarolinaOliveira23)
+- [Ana](https://github.com/AnaCarolinaOliveira23)
 
-[Caliu](https://github.com/caliusantos)
+- [Caliu](https://github.com/caliusantos)
