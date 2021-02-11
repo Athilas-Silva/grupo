@@ -8,14 +8,14 @@ Proposta:
 [Dashboard](https://athilas-silva.github.io/grupo/grupo-main/Dashboard-v1/index.html)
 
 ### Para acessar pelo celular:
-![QrCode](Grupo/grupo-main/Dashboard-v1/images/Dashboard-Grupo1.png)
+![QrCode](https://user-images.githubusercontent.com/71888055/107707374-87922080-6ca0-11eb-9289-1fd10db418d9.png)
 
 Perfis dos Integrantes:
 
-- [Allan](https://github.com/allan-gh)
+- [Allan Gama](https://github.com/allan-gh)
 
 - [Antonio](https://github.com/Antonio1711)
 
-- [Ana](https://github.com/AnaCarolinaOliveira23)
+- [Ana Caroline](https://github.com/AnaCarolinaOliveira23)
 
-- [Caliu](https://github.com/caliusantos)
+- [Caliu Santos](https://github.com/caliusantos)
