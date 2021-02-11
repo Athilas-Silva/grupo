@@ -9,7 +9,9 @@ Proposta:
 
 <h3 align="center">Para acessar pelo celular</h3>
 
-<img align="center" src="https://user-images.githubusercontent.com/71888055/107707374-87922080-6ca0-11eb-9289-1fd10db418d9.png" alt="QrCode do site">
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/71888055/107707374-87922080-6ca0-11eb-9289-1fd10db418d9.png" alt="QrCode do site">
+</p>    
 
 <h2 align="center">Perfis dos Integrantes</h2>
 
