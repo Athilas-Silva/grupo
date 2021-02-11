@@ -1,5 +1,5 @@
 <h1 align="center">Grupo</h1>
-Repositório para trabalhos desenvolvidos em grupo
+Repositório para trabalhos desenvolvidos em grupo 🤓
 
 <h2 align="center">Atividade de Lima - Dashboard</h2>
 Proposta:
