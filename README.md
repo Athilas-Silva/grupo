@@ -1,4 +1,4 @@
-# Grupo
+<h1 align="center">Grupo</h1>
 Repositório para trabalhos desenvolvidos em grupo
 
 ## Atividade de Lima - Dashboard
