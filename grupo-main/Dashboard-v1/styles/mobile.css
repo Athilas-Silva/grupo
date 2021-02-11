@@ -7,10 +7,6 @@
         font-family: sans-serif;
     }
     
-    html {
-
-    }
-    
     section#sidebar{
         background-color: rgb(26, 26, 26);
         height: 2610px;
@@ -59,7 +55,7 @@
     section#navbar_e_cards{
         
         height: 100%;
-        width: 85%;
+        width: 100%;
         
     }
     
@@ -68,6 +64,7 @@
         display: flex;
         height: 55px;
         justify-content: space-between;
+        width: 100%;
     }
     
     div#container_img_cliente{
@@ -174,6 +171,7 @@
         align-items: center;
         background-color: rgb(238, 234, 234) ; 
         height: 2555px;
+        width: 100%;
         
     }
     

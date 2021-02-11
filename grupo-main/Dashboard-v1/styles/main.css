@@ -8,7 +8,6 @@ body {
 
 section#sidebar{
     background-color: rgb(26, 26, 26);
-    height: 1260;
     min-width: 120px;
     
     width: 15%;
@@ -286,6 +285,8 @@ div.cards{
     flex-direction: column;
     align-items: center;
     margin-bottom: 15px;
+    max-width: 450px;
+    max-height: 100%;
 }
 
 div.cabecalho-cards{
