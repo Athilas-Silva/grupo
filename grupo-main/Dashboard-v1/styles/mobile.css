@@ -67,14 +67,12 @@
         background-color: rgb(29, 28, 28);
         display: flex;
         height: 55px;
-        
-        
+        justify-content: space-between;
     }
     
     div#container_img_cliente{
         
         justify-content: flex-start;
-        margin-left: 10px;
         
     }
     
@@ -125,11 +123,9 @@
         
         display: flex;
         flex-wrap: wrap;
-        align-items: center;
-        margin-left: 155px;
-        width: 30%;
-        justify-content: end;
-        
+        align-items: center; 
+        justify-content: flex-start;
+        width: 50%;
         
     }
     
@@ -152,13 +148,24 @@
         margin-left: 13px;
         color: aliceblue;
     }
+    ul li.item_navegacao_horizontal2{
+        display: none;
+    }
     
     div.item-usuario{
         display: inline;
     }
+
+    div.item-usuario2{
+        display: none;
+    }
     
     div.item-sair{
         display: inline;
+    }
+
+    div.item-sair2{
+        display: none;
     }
     
     article#conteudo-principal{
@@ -178,6 +185,8 @@
         height: 40px;
         display: flex;
         align-items: center;
+
+        justify-content: flex-start;
     }
     
     div#container-pagina{
@@ -197,7 +206,6 @@
     
     div#container-simbolos{
         
-        margin-left: 30px;
         display: flex;
         align-items: center;
         justify-content: space-around;

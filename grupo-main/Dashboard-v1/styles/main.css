@@ -109,15 +109,11 @@ header{
     background-color: rgb(29, 28, 28);
     display: flex;
     height: 55px;
-    
-    
+    justify-content: space-between;
 }
 
 div#container_img_cliente{
-    
     justify-content: flex-start;
-    margin-left: 10px;
-    
 }
 
 div#container_cliente_info{
@@ -168,9 +164,8 @@ nav#navegacao_horizontal{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    margin-left: 155px;
-    width: 30%;
-    justify-content: end;
+    width: 45%;
+    justify-content: flex-end;
     
     
 }
@@ -190,6 +185,11 @@ ul#navegacao_horizontal_lista{
 }
 
 ul li.item_navegacao_horizontal{
+    margin-right: 13px;
+    margin-left: 13px;
+    color: aliceblue;
+}
+ul li.item_navegacao_horizontal2{
     margin-right: 13px;
     margin-left: 13px;
     color: aliceblue;
