@@ -19,7 +19,7 @@ Proposta:
 
 - [Allan Gama](https://github.com/allan-gh)
 
-- [Antonio](https://github.com/Antonio1711)
+- [Antonio Augusto](https://github.com/Antonio1711)
 
 - [Ana Carolina](https://github.com/AnaCarolinaOliveira23)
 
