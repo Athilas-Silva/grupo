@@ -7,7 +7,11 @@ Proposta:
 
 <h3 align="center">Acesso direto ao site</h3>
 
- - [Dashboard](https://athilas-silva.github.io/grupo/grupo-main/Dashboard-v1/index.html)
+<p align="center">
+
+[Dashboard](https://athilas-silva.github.io/grupo/grupo-main/Dashboard-v1/index.html)
+
+</p>
 
 <h3 align="center">Para acessar pelo celular</h3>
 
