@@ -19,6 +19,8 @@ Proposta:
 
 - [Antonio](https://github.com/Antonio1711)
 
-- [Ana Caroline](https://github.com/AnaCarolinaOliveira23)
+- [Ana Carolina](https://github.com/AnaCarolinaOliveira23)
 
 - [Caliu Santos](https://github.com/caliusantos)
+
+- [Victor Eduardo](https://github.com/ViictorSR388)
